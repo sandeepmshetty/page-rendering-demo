@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // React specific rules
+    "react/no-unescaped-entities": "off",
+    "react/jsx-no-target-blank": "warn"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/",
+    "out/",
+    "build/"
+  ]
+}
