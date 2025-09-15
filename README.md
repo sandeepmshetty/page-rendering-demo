@@ -1,5 +1,10 @@
 # Page Rendering Demo 🚀
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-brightgreen?style=for-the-badge&logo=vercel)](https://page-rendering-demo.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/sandeepmshetty/page-rendering-demo)
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.32-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+
 A comprehensive, interactive demonstration of different page rendering strategies in modern web development using Next.js 14. This project goes beyond basic examples to show **real HTML/JavaScript differences**, **performance metrics**, and **technical deep dives** for each rendering approach.
 
 ## ✨ What Makes This Demo Special
@@ -12,7 +17,15 @@ A comprehensive, interactive demonstration of different page rendering strategie
 
 ## 🌐 Live Demo
 
-🔗 **Repository**: [https://github.com/sandeepmshetty/page-rendering-demo](https://github.com/sandeepmshetty/page-rendering-demo)
+### 🚀 **Try it Now**: [https://page-rendering-demo.vercel.app](https://page-rendering-demo.vercel.app)
+
+Experience all rendering strategies live with:
+- **Interactive demos** of CSR, SSR, SSG, and ISR
+- **Real-time performance metrics** and bundle analysis
+- **Technical deep dives** with actual HTML source code
+- **Live cache state visualization** for ISR
+
+### � **Repository**: [https://github.com/sandeepmshetty/page-rendering-demo](https://github.com/sandeepmshetty/page-rendering-demo)
 
 **Local Development**: Visit [http://localhost:3000](http://localhost:3000) after setup
 
@@ -97,6 +110,34 @@ npm run build    # Build for production
 npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
+
+## 🚀 Deployment
+
+This project is deployed on **Vercel** for optimal performance and global edge distribution.
+
+### 🌍 **Live Demo**: [https://page-rendering-demo.vercel.app](https://page-rendering-demo.vercel.app)
+
+### Deployment Features
+- **✅ Automatic deployments** from main branch
+- **🌐 Global CDN** for fastest loading worldwide  
+- **⚡ Edge functions** for optimal SSR performance
+- **📊 Real-time analytics** and performance monitoring
+- **🔒 HTTPS** enabled by default
+
+### Deploy Your Own
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sandeepmshetty/page-rendering-demo)
+
+1. **Fork** this repository
+2. **Connect** to Vercel via GitHub
+3. **Deploy** automatically with zero configuration
+4. **Explore** all rendering strategies live!
+
+### Other Deployment Options
+- **Netlify**: Works out of the box with `npm run build`
+- **AWS Amplify**: Full SSR support with serverless functions
+- **Railway**: Simple deployment with automatic HTTPS
+- **Self-hosted**: Use `npm run build && npm run start`
 
 ## 📁 Enhanced Project Structure
 
@@ -361,3 +402,25 @@ This project is open source and available under the [MIT License](LICENSE).
 - [React Server Components](https://react.dev/learn/start-a-new-react-project#nextjs-app-router)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [TypeScript](https://www.typescriptlang.org/docs/)
+
+---
+
+## 🎯 Ready to Explore?
+
+### 🚀 **[Try the Live Demo](https://page-rendering-demo.vercel.app)** 
+Experience all rendering strategies in action with real performance metrics!
+
+### ⭐ **[Star on GitHub](https://github.com/sandeepmshetty/page-rendering-demo)** 
+If this demo helped you understand rendering strategies, please give it a star!
+
+### 🤝 **[Contribute](CONTRIBUTING.md)** 
+Found an issue or have an improvement? Contributions are welcome!
+
+### 📢 **Share the Knowledge**
+Help other developers learn by sharing this resource:
+- Twitter/X: `"Check out this comprehensive Next.js rendering demo: https://page-rendering-demo.vercel.app 🚀 #NextJS #WebPerformance #ReactJS"`
+- LinkedIn: `"Great resource for understanding SSR, SSG, CSR, and ISR with real examples and performance metrics"`
+
+---
+
+**🏷️ Tags:** `nextjs` `react` `typescript` `rendering` `performance` `ssr` `ssg` `csr` `isr` `web-vitals` `education` `demo` `tutorial`
