@@ -51,6 +51,9 @@ export default function Home() {
           >
             View SSG Demo
           </a>
+          <div className="mt-3 text-sm">
+            <a href="/ssg/1" className="text-purple-700 underline">Static detail example: /ssg/1</a>
+          </div>
         </div>
 
         <div className="bg-white p-6 rounded-lg shadow-md border">
@@ -65,6 +68,16 @@ export default function Home() {
             className="inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors"
           >
             View ISR Demo
+          </a>
+        </div>
+        
+        <div className="bg-white p-6 rounded-lg shadow-md border">
+          <h2 className="text-2xl font-semibold mb-4 text-indigo-600">
+            🌍 Edge Runtime
+          </h2>
+          <p className="text-gray-600 mb-4">SSR executed on the Edge close to the user.</p>
+          <a href="/edge" className="inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition-colors">
+            View Edge Demo
           </a>
         </div>
       </div>
