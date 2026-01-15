@@ -7,7 +7,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply bg-gray-50 text-gray-900;
   }
@@ -18,31 +18,31 @@
   .demo-card {
     @apply bg-white rounded-xl shadow-lg border border-gray-200 p-6 transition-all duration-300 hover:shadow-xl hover:border-gray-300;
   }
-  
+
   .demo-header {
     @apply border-l-4 p-6 mb-8 rounded-r-lg;
   }
-  
+
   .demo-step {
     @apply flex items-center space-x-3 p-3 rounded-lg bg-gray-50 transition-colors hover:bg-gray-100;
   }
-  
+
   .demo-step-number {
     @apply w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-semibold;
   }
-  
+
   .post-item {
     @apply border-l-4 pl-6 py-4 bg-gray-50 rounded-r-lg transition-all hover:bg-gray-100 hover:shadow-md;
   }
-  
+
   .nav-link {
     @apply px-4 py-2 rounded-lg transition-all duration-200 font-medium;
   }
-  
+
   .nav-link-active {
     @apply bg-gray-700 text-white shadow-lg;
   }
-  
+
   .nav-link-inactive {
     @apply text-gray-300 hover:bg-gray-700 hover:text-white hover:shadow-md;
   }
@@ -50,13 +50,24 @@
 
 /* Animation keyframes for loading states */
 @keyframes pulse-slow {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-pulse-slow {
@@ -65,4 +76,17 @@
 
 .animate-fade-in {
   animation: fadeIn 0.5s ease-out;
+}
+
+/* Custom utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600;
 }

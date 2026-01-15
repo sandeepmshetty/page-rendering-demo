@@ -40,9 +40,10 @@ async function getData(): Promise<{ posts: Post[]; timestamp: string; cacheStatu
   }
 }
 
+import RevalidateButton from '@/components/RevalidateButton';
+
 export default async function ISRPage({ searchParams }: ISRPageProps) {
   const { posts, timestamp, cacheStatus } = await getData();
-  
   // Generate adaptive styles based on cache status
   const cacheColors = {
     fresh: 'from-green-400 to-emerald-600',
@@ -92,9 +93,14 @@ export default async function ISRPage({ searchParams }: ISRPageProps) {
           </p>
           
           {/* Cache Status Indicator */}
-          <div className={`cache-indicator inline-block px-6 py-3 rounded-full text-white font-semibold mb-6 bg-gradient-to-r ${cacheColors[cacheStatus as keyof typeof cacheColors]}`}>
+          <div className={`cache-indicator inline-block px-6 py-3 rounded-full text-white font-semibold mb-8 bg-gradient-to-r ${cacheColors[cacheStatus as keyof typeof cacheColors]}`}>
             Cache Status: {cacheStatus.replace('-', ' ').toUpperCase()}
           </div>
+
+          <div className="mt-4">
+            <RevalidateButton path="/isr" />
+          </div>
+
         </div>
 
         {/* ISR Explanation */}

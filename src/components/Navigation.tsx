@@ -13,7 +13,9 @@ export default function Navigation() {
     { href: '/ssr', label: 'SSR' },
     { href: '/ssg', label: 'SSG' },
     { href: '/isr', label: 'ISR' },
+    { href: '/streaming', label: 'Streaming' },
     { href: '/edge', label: 'Edge' },
+    { href: '/comparison', label: 'Compare' },
   ]
 
   return (
